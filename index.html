@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zimny Klimat - strona w budowie</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f7ff, #ffffff);
+      color: #123;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 720px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 48px 32px;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 60, 100, 0.12);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 24px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: #d8f3ff;
+      color: #0077a8;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+      color: #004b6b;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .contact {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #dceef5;
+      font-size: 16px;
+    }
+
+    .phone {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #0077a8;
+      text-decoration: none;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 14px;
+      color: #667;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      .container {
+        padding: 36px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="badge">Strona w budowie</div>
+
+    <h1>Zimny Klimat</h1>
+
+    <p>
+      Przygotowujemy stronę internetową naszej firmy.
+    </p>
+
+    <p>
+      Już wkrótce znajdziesz tutaj informacje o usługach montażu,
+      serwisu i doboru klimatyzacji.
+    </p>
+
+    <div class="contact">
+      <p>W sprawie montażu klimatyzacji zapraszamy do kontaktu:</p>
+      <a class="phone" href="tel:+48123456789">+48 123 456 789</a>
+    </div>
+
+    <div class="footer">
+      © 2026 Zimny Klimat
+    </div>
+  </main>
+</body>
+</html>
