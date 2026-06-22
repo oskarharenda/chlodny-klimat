@@ -3,5 +3,15 @@
   "compatibility_date": "2026-06-22",
   "assets": {
     "directory": "./public"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "chlodny-klimat.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.chlodny-klimat.com",
+      "custom_domain": true
+    }
+  ]
 }
